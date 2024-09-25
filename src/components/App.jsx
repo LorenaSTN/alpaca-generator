@@ -17,6 +17,16 @@ function App() {
   return (
     <div>
       <h2 className="app__title">Alpaca Generator</h2>
+      <div ref={imageContainerRef}>
+        <ImageLayer src={layer.Background} />
+        <ImageLayer src={layer.Neck} />
+        <ImageLayer src={layer.Hair} />
+        <ImageLayer src={layer.Ears} />
+        <ImageLayer src={layer.Eyes} />
+        <ImageLayer src={layer.Nose} />
+        <ImageLayer src={layer.Mouth} />
+        <ImageLayer src={layer.Leg} />
+      </div>
     </div>
   );
 }
