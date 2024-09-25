@@ -36,7 +36,7 @@ function App() {
       return;
     }
 
-    toPng(imageContainerRef.current, { cacheBust: true })
+    toPng(imageContainerRef.current, { cacheBust: true, skipFonts: true })
       .then((dataUrl) => {
         const link = document.createElement("a");
         link.href = dataUrl;
