@@ -5,13 +5,75 @@
     text-align: center;
     margin: 0;
     padding: 25px;
+
+    @media screen and (min-width: 590px) {
+      font-size: 70px;
+    }
+
+    @media screen and (min-width: 790px) {
+      font-size: 85px;
+    }
   }
 
-  @media screen and (min-width: 590px) {
-    font-size: 70px;
+  &__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (min-width: 790px) {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
   }
 
-  @media screen and (min-width: 790px) {
-    font-size: 85px;
+  &__options {
+    width: 70%;
+    padding: 25px;
+    text-align: center;
+
+    @media screen and (min-width: 790px) {
+      width: 40%;
+    }
   }
+
+  &__imagebox {
+    padding: 10px;
+    background-color: rgb(52, 25, 0);
+    margin-top: 55px;
+  }
+
+  &__imagepreview {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    // margin: 0 auto;
+
+    @media screen and (min-width: 520px) {
+      width: 350px;
+      height: 350px;
+      // margin: 0 auto;
+    }
+
+    @media screen and (min-width: 790px) {
+      width: 400px;
+      height: 400px;
+    }
+  }
+
+  &__savediv {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+.button__save {
+  padding: 5px 10px;
+  border: 3px solid rgb(5, 5, 53);
+  color: rgb(5, 5, 53);
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Leckerli One", cursive;
 }
