@@ -14,7 +14,7 @@ Built with React.
 Steps to follow:
 
 ```bash
-git clone [https://github.com/LorenaSTN/Alpaca-Generator.git]
+git clone [https://github.com/LorenaSTN/alpaca-generator.git]
 
 cd alpaca-generator
 
