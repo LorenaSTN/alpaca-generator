@@ -1,17 +1,17 @@
 .app {
   &__title {
     color: rgb(5, 5, 53);
-    font-size: 65px;
+    font-size: 60px;
     text-align: center;
     margin: 0;
     padding: 25px;
 
     @media screen and (min-width: 590px) {
-      font-size: 70px;
+      font-size: 65px;
     }
 
     @media screen and (min-width: 790px) {
-      font-size: 85px;
+      font-size: 75px;
     }
   }
 
