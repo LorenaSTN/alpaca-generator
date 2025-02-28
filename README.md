@@ -2,8 +2,9 @@
 
 The Alpaca Generator is a Codementor project that allows users to customize and create their own alpaca images, with the option to download them.
 
-<img width="400" alt="Captura de pantalla 2024-09-25 a las 10 44 32" src="https://github.com/user-attachments/assets/17082da5-77c3-4d7f-84f7-999f5e2ecf89">
-<img width="400" alt="Captura de pantalla 2024-09-25 a las 10 45 00" src="https://github.com/user-attachments/assets/b5a1e1f2-9079-49ef-bfc3-58a3fe6adfee">
+<img width="400" alt="Captura de pantalla 2025-02-28 a las 18 13 52" src="https://github.com/user-attachments/assets/5f703d54-1310-4a21-ac46-38105f715f57" />
+<img width="400" alt="Captura de pantalla 2025-02-28 a las 18 14 18" src="https://github.com/user-attachments/assets/a78abbbc-4f49-4d42-a841-10a41e9b2ea5" />
+
 
 ## Technologies 
 
